@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_linear);
+        setContentView(R.layout.activity_main_grid );
         Switch toggle = (Switch) findViewById(R.id.switch4);
         toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
