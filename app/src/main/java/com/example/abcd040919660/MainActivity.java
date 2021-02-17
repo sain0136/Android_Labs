@@ -17,15 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_grid );
         Switch toggle = (Switch) findViewById(R.id.switch4);
-        toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    Snackbar.make(buttonView, "The switch is now on", Snackbar.LENGTH_SHORT)
-                            .show();
-                } else {
-                    Snackbar.make(buttonView, "The switch is now off", Snackbar.LENGTH_SHORT)
-                            .show();
-                }
+        toggle.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                Snackbar.make(buttonView, "The switch is now on", Snackbar.LENGTH_SHORT)
+                        .show();
+            } else {
+                Snackbar.make(buttonView, "The switch is now off", Snackbar.LENGTH_SHORT)
+                        .show();
             }
         });
     }
