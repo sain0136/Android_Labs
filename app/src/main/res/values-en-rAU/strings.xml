@@ -7,5 +7,14 @@
     <string name="checkBox">Regarde ça!</string>
     <string name="switchBox">Allumer / éteindre</string>
     <string name="editTxt">Écrivez ici</string>
+    <string name="enter_your_email_address">Entrez votre adresse email:</string>
+    <string name="type_email_hint">Saisissez votre e-mail ici</string>
+    <string name="type_your_password">Tapez votre mot de passe:</string>
+    <string name="login">CONNEXION</string>
+    <string name="type_email">Tapez-lui un e-mail</string>
+    <string name="enter_your_name">Entrez votre nom</string>
+    <string name="your_name">Votre nome</string>
+    <string name="your_profile">votre profil</string>
+    <string name="click_the_button_above_to_take_a_picture">Cliquez sur le bouton ci-dessus pour prendre une photo</string>
 
 </resources>
